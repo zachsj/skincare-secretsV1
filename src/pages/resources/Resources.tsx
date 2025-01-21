@@ -13,9 +13,12 @@ export const Resources = (): JSX.Element => {
   return (
     <>
     <Helmet>
-        <title>Resources</title>
-        <meta name="description" content="Resources" />
-      </Helmet>
+        <title>Trusted Resources for Sensitive Skincare | Expert Recommendations</title>
+        <meta name="description" content="Access trusted resources and expert recommendations for sensitive skincare. Discover valuable tips, guides, and links to help you achieve healthy, glowing skin." />
+        <meta name="keywords" content="Trusted Resources for Sensitive Skincare, Sensitive Skincare Tips, Expert Skincare Recommendations" />
+        <link rel="canonical" href="https://skincaresecrets.netlify.app/resources" />
+    </Helmet>
+
     <BaseLayout>
       <h3>Resources</h3>
 

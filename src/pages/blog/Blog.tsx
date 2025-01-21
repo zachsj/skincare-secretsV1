@@ -15,10 +15,12 @@ export const Blog = (): JSX.Element => {
     <>
     <Helmet>
         <title>Best Products for Sensitive Skin | Skincare Blog</title>
-        <meta name="description" content="Explore the best sensitive skincare products, for effortless healthy, glowing skin at Skincare Secrets." />
-        <meta name="keywords" content="Best Products for Sensitive Skin" />
-      </Helmet>
-    <BaseLayout>
+        <meta name="description" content="Dive into in-depth reviews and insights on the best skincare products for sensitive skin. Discover product recommendations for achieving healthy, radiant skin." />
+        <meta name="keywords" content="Best Products for Sensitive Skin **OR** Product Reviews for Sensitive Skin" />
+        <link rel="canonical" href="https://skincaresecrets.netlify.app/blog" />
+    </Helmet>
+
+<BaseLayout>
 
 <br/><br/>
 

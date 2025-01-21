@@ -18,8 +18,10 @@ export const Home = (): JSX.Element => {
         <title>Skincare for Sensitive Skin | 2025 Best Clinique Skincare Products for Sensitive Skin</title>
         <meta name="description" content="Explore the best sensitive skincare products, for effortless healthy, glowing skin at Skincare Secrets." />
         <meta name="keywords" content="Skincare for Sensitive Skin" />
-      </Helmet>
-      <BaseLayout>
+        <link rel="canonical" href="https://skincaresecrets.netlify.app/" />
+    </Helmet>
+
+    <BaseLayout>
     
       <h1 className="h1">Skincare Secrets </h1>
 
